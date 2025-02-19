@@ -96,10 +96,10 @@ const Laboratorna1 = () => {
                     <a href="https://ahgpeu6po.github.io/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/">Посилання на репозиторій на живу сторінку звітного HTML-документу</a>
                 </li>
                 <li>
-                    Посилання на репозиторій з самостійними роботами:<a></a>
+                    <a href="https://github.com/AHgPEu6po/IO-24_INDEPENDENT-PetrenkoAndrew-FIOT-2025">Посилання на репозиторій з самостійними роботами</a>
                 </li>
                 <li>
-                    Посилання на репозиторій живу сторінку з самостійними роботами:<a></a>
+                    <a  href="https://ahgpeu6po.github.io/IO-24_INDEPENDENT-PetrenkoAndrew-FIOT-2025/">Посилання на репозиторій живу сторінку з самостійними роботами</a>
                 </li>
             </ul>
             <div className="mb-4 mt-4">
