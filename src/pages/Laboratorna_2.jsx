@@ -1,16 +1,16 @@
-import React, {useState} from 'react';
-import {assets} from "../assets/assets.js";
+import React, { useState } from 'react';
+import { assets } from "../assets/assets.js";
 
 const tasks = [
-    {id: 1, title: "Тема, мета ЛР №2, Місце розташування сайту, звіту"},
-    {id: 2, title: "Способи підключення стилів"},
-    {id: 3, title: "СЕЛЕКТОРИ"},
-    {id: 4, title: "Селектори тегу"},
-    {id: 5, title: "Селектори класу"},
-    {id: 6, title: "Селектори ідентифікаторів"},
-    {id: 7, title: "Інші селектори"},
-    {id: 8, title: "CSS: Шрифти Текст Таблиці Фон Контур Списки CSS Просунутий"},
-    {id: 9, title: "Висновки до ЛР №2"},
+    { id: 1, title: "Тема, мета ЛР №2, Місце розташування сайту, звіту" },
+    { id: 2, title: "Способи підключення стилів" },
+    { id: 3, title: "СЕЛЕКТОРИ" },
+    { id: 4, title: "Селектори тегу" },
+    { id: 5, title: "Селектори класу" },
+    { id: 6, title: "Селектори ідентифікаторів" },
+    { id: 7, title: "Інші селектори" },
+    { id: 8, title: "CSS: Шрифти Текст Таблиці Фон Контур Списки CSS Просунутий" },
+    { id: 9, title: "Висновки до ЛР №2" },
 ];
 
 const Laboratorna2 = () => {
@@ -41,16 +41,16 @@ const Laboratorna2 = () => {
 
                         <ul>
                             <li>
-                                Посилання на репозиторій власного WEB-застосунку:<a></a>
+                                <a href="https://github.com/AHgPEu6po/IO-24_appWEB-PetrenkoAndrew-FIOT-2025">Посилання на репозиторій власного WEB-застосунку</a>
                             </li>
                             <li>
-                                Посилання на репозиторій на живу сторінку власного WEB-застосунку:<a></a>
+                                <a href="https://ahgpeu6po.github.io/IO-24_appWEB-PetrenkoAndrew-FIOT-2025/">Посилання на репозиторій на живу сторінку власного WEB-застосунку</a>
                             </li>
                             <li>
-                                Посилання на репозиторій звітного HTML-документа:<a></a>
+                                <a href="https://github.com/AHgPEu6po/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025">Посилання на репозиторій звітного HTML-документа</a>
                             </li>
                             <li>
-                                Посилання на репозиторій на живу сторінку звітного HTML-документу:<a></a>
+                                <a href="https://ahgpeu6po.github.io/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/">Посилання на репозиторій на живу сторінку звітного HTML-документу</a>
                             </li>
                             <li>
                                 Посилання на репозиторій з самостійними роботами:<a></a>
@@ -171,11 +171,11 @@ const Laboratorna2 = () => {
                         <p>
                             Код для селекторів тегу:
                         </p>
-                        <img src={assets.tag_selector} alt="Селектор тегу"/>
+                        <img src={assets.tag_selector} alt="Селектор тегу" />
                         <p>
                             Фото:
                         </p>
-                        <img src={assets.tag_selector_photo} alt="Селектор тегу"/>
+                        <img src={assets.tag_selector_photo} alt="Селектор тегу" />
                     </div>
                 </div>
             case 5:
@@ -184,11 +184,11 @@ const Laboratorna2 = () => {
                         <p>
                             Код для селекторів класу:
                         </p>
-                        <img src={assets.class_selector} alt="Селектор класу"/>
+                        <img src={assets.class_selector} alt="Селектор класу" />
                         <p>
                             Фото:
                         </p>
-                        <img src={assets.class_selector_photo} alt="Селектор класу"/>
+                        <img src={assets.class_selector_photo} alt="Селектор класу" />
                     </div>
                 </div>
             case 6:
@@ -203,40 +203,40 @@ const Laboratorna2 = () => {
                         <p className="font-semibold text-xl">Інші селектори</p>
                         <table className="w-full border-collapse text-center border border-black">
                             <thead>
-                            <tr className="bg-yellow-400 text-black">
-                                <th className="border border-black p-3">Селектор</th>
-                                <th className="border border-black p-3">Опис</th>
-                                <th className="border border-black p-3">Приклад</th>
-                            </tr>
+                                <tr className="bg-yellow-400 text-black">
+                                    <th className="border border-black p-3">Селектор</th>
+                                    <th className="border border-black p-3">Опис</th>
+                                    <th className="border border-black p-3">Приклад</th>
+                                </tr>
                             </thead>
                             <tbody>
-                            <tr>
-                                <td className="border border-black p-3">Груповий селектор (,)</td>
-                                <td className="border border-black p-3">Стилізує кілька елементів одночасно</td>
-                                <td className="border border-black p-3">.footer-content-left, .footer-content-right,
-                                    .footer-content-center
-                                </td>
-                            </tr>
-                            <tr className="bg-gray-100">
-                                <td className="border border-black p-3">Селектор нащадків (пробіл)</td>
-                                <td className="border border-black p-3">Вибирає всі вкладені елементи</td>
-                                <td className="border border-black p-3">.navbar .logo, .food-item-name-rating img</td>
-                            </tr>
-                            <tr>
-                                <td className="border border-black p-3">Псевдоклас (:hover)</td>
-                                <td className="border border-black p-3">Стилізує елемент при наведенні миші</td>
-                                <td className="border border-black p-3">.navbar button:hover</td>
-                            </tr>
-                            <tr className="bg-gray-100">
-                                <td className="border border-black p-3">Псевдоелемент (::-webkit-scrollbar)</td>
-                                <td className="border border-black p-3">Ховає скролбар</td>
-                                <td className="border border-black p-3">.explore-menu-list::-webkit-scrollbar</td>
-                            </tr>
-                            <tr>
-                                <td className="border border-black p-3">Анімація (animation)</td>
-                                <td className="border border-black p-3">Додає анімацію до елементів</td>
-                                <td className="border border-black p-3">animation: fadeIn 1s</td>
-                            </tr>
+                                <tr>
+                                    <td className="border border-black p-3">Груповий селектор (,)</td>
+                                    <td className="border border-black p-3">Стилізує кілька елементів одночасно</td>
+                                    <td className="border border-black p-3">.footer-content-left, .footer-content-right,
+                                        .footer-content-center
+                                    </td>
+                                </tr>
+                                <tr className="bg-gray-100">
+                                    <td className="border border-black p-3">Селектор нащадків (пробіл)</td>
+                                    <td className="border border-black p-3">Вибирає всі вкладені елементи</td>
+                                    <td className="border border-black p-3">.navbar .logo, .food-item-name-rating img</td>
+                                </tr>
+                                <tr>
+                                    <td className="border border-black p-3">Псевдоклас (:hover)</td>
+                                    <td className="border border-black p-3">Стилізує елемент при наведенні миші</td>
+                                    <td className="border border-black p-3">.navbar button:hover</td>
+                                </tr>
+                                <tr className="bg-gray-100">
+                                    <td className="border border-black p-3">Псевдоелемент (::-webkit-scrollbar)</td>
+                                    <td className="border border-black p-3">Ховає скролбар</td>
+                                    <td className="border border-black p-3">.explore-menu-list::-webkit-scrollbar</td>
+                                </tr>
+                                <tr>
+                                    <td className="border border-black p-3">Анімація (animation)</td>
+                                    <td className="border border-black p-3">Додає анімацію до елементів</td>
+                                    <td className="border border-black p-3">animation: fadeIn 1s</td>
+                                </tr>
                             </tbody>
                         </table>
 
@@ -250,7 +250,7 @@ const Laboratorna2 = () => {
                         <p>
                             Шрифти:
                         </p>
-                        <img src={assets.font} alt="Шрифти"/>
+                        <img src={assets.font} alt="Шрифти" />
                         <p>
                             Контури:
                         </p>
@@ -258,22 +258,22 @@ const Laboratorna2 = () => {
                         <p>
                             Фон:
                         </p>
-                        <img src={assets.background} alt="Фон"/>
+                        <img src={assets.background} alt="Фон" />
                         <p>
                             Колір тексту:
                         </p>
-                        <img src={assets.text_color} alt="Колір тексту"/>
-                        <img src={assets.text_color_photo} alt="Колір тексту"/>
+                        <img src={assets.text_color} alt="Колір тексту" />
+                        <img src={assets.text_color_photo} alt="Колір тексту" />
                         <p>
                             CSS-властивості для таблиць
                         </p>
-                        <img src={assets.table_lab2} alt="Таблиця"/>
-                        <img src={assets.table_lab2_photo} alt="Таблиця"/>
+                        <img src={assets.table_lab2} alt="Таблиця" />
+                        <img src={assets.table_lab2_photo} alt="Таблиця" />
                         <p>
                             CSS-властивості для багаторівневих списків
                         </p>
-                        <img src={assets.list_lab2} alt="Список"/>
-                        <img src={assets.list_lab2_photo} alt="Список"/>
+                        <img src={assets.list_lab2} alt="Список" />
+                        <img src={assets.list_lab2_photo} alt="Список" />
 
                     </div>
                 </div>
