@@ -295,7 +295,7 @@ const Laboratorna3 = () => {
                                     <p className='text-sm'>Якісні відео з зрозумілим поясненням теорії</p>
                                 </div>
                                 <div className="card-header flex justify-center items-center">
-                                    <img alt='mistake' className="w-64 h-auto rounded" />
+                                    <img src={assets.video} alt='mistake' className="w-64 h-auto rounded" />
                                 </div>
                             </div>
 
@@ -306,7 +306,7 @@ const Laboratorna3 = () => {
                                     <p className='text-sm'>Поспішати не треба, обирайте зручний режим навчання</p>
                                 </div>
                                 <div className="card-header flex justify-center items-center">
-                                    <img alt='mistake' className="w-64 h-auto rounded" />
+                                    <img src={assets.task} alt='mistake' className="w-64 h-auto rounded" />
                                 </div>
                             </div>
 
@@ -317,7 +317,7 @@ const Laboratorna3 = () => {
                                     <p className='text-sm'>Ваш куратор розповість про помилки і про те, як їх виправити</p>
                                 </div>
                                 <div className="card-header flex justify-center items-center">
-                                    <img alt='mistake' className="w-64 h-auto rounded" />
+                                    <img src={assets.explanation} alt='mistake' className="w-64 h-auto rounded" />
                                 </div>
                             </div>
 
@@ -329,7 +329,7 @@ const Laboratorna3 = () => {
                                         правильно</p>
                                 </div>
                                 <div className="card-header flex justify-center items-center">
-                                    <img alt='mistake' className="w-64 h-auto rounded" />
+                                    <img src={assets.mistake} alt='mistake' className="w-64 h-auto rounded" />
                                 </div>
                             </div>
                         </div>
@@ -338,7 +338,7 @@ const Laboratorna3 = () => {
                         </div>
                         <Carousel>
                             <div className="flex flex-col sm:flex-row items-start sm:space-x-4">
-                                <img className="w-auto max-w-xs rounded" />
+                                <img className="w-auto max-w-xs rounded" src={assets.slide_1}/>
                                 <div className="flex flex-col space-y-2 sm:ml-4">
                                     <p className="text-lg text-left">Перший рівень: чітка і зрозуміла теорія</p>
                                     <p className="text-sm text-gray-600 text-left">За 4 місяці вам необхідно буде пройти 16 тем.
@@ -351,7 +351,7 @@ const Laboratorna3 = () => {
                                 </div>
                             </div>
                             <div className="flex flex-col sm:flex-row items-start sm:space-x-4">
-                                <img className="w-auto max-w-xs rounded" />
+                                <img className="w-auto max-w-xs rounded" src={assets.slide_2}/>
                                 <div className="flex flex-col space-y-2 sm:ml-4">
                                     <p className="text-lg text-left">Другий рівень: інтенсивна практика</p>
                                     <p className="text-sm text-gray-600 text-left">Під керівництвом наставника ви в складі
@@ -364,7 +364,7 @@ const Laboratorna3 = () => {
                                 </div>
                             </div>
                             <div className="flex flex-col sm:flex-row items-start sm:space-x-4">
-                                <img className="w-auto max-w-xs rounded" />
+                                <img className="w-auto max-w-xs rounded" src={assets.slide_3}/>
                                 <div className="flex flex-col space-y-2 sm:ml-4">
                                     <p className="text-lg text-left">Третій рівень: інтенсивна практика</p>
                                     <p className="text-sm text-gray-600 text-left">Additional information about Mistake</p>

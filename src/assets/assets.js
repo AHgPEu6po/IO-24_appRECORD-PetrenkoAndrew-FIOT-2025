@@ -27,6 +27,13 @@ import list_lab2_photo from './images/laboratorna_2/list_lab2_photo.png'
 // лабораторна 3
 import variant_lab3 from './images/laboratorna_3/variant_lab3.png'
 import variant_2_lab3 from './images/laboratorna_3/variant_2_lab3.png'
+import explanation from './images/laboratorna_3/explanation.png'
+import mistake from './images/laboratorna_3/mistake.png'
+import task from './images/laboratorna_3/task.png'
+import video from './images/laboratorna_3/video.png'
+import slide_1 from './images/laboratorna_3/1_slide.png'
+import slide_2 from './images/laboratorna_3/2_slide.png'
+import slide_3 from './images/laboratorna_3/3_slide.png'
 import html_1 from './images/laboratorna_3/html_1.png'
 import html_2 from './images/laboratorna_3/html_2.png'
 import html_3 from './images/laboratorna_3/html_3.png'
@@ -69,6 +76,13 @@ export const assets = {
     list_lab2_photo,
     variant_lab3,
     variant_2_lab3,
+    explanation,
+    mistake,
+    task,
+    video,
+    slide_1,
+    slide_2,
+    slide_3,
     html_1,
     html_2,
     html_3,
