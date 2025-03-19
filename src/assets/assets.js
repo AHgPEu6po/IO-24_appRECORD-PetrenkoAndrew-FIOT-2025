@@ -24,6 +24,27 @@ import text_color_photo from './images/laboratorna_2/text_color_photo.png'
 import list_lab2 from './images/laboratorna_2/list_lab2.png'
 import list_lab2_photo from './images/laboratorna_2/list_lab2_photo.png'
 
+// лабораторна 3
+import variant_lab3 from './images/laboratorna_3/variant_lab3.png'
+import variant_2_lab3 from './images/laboratorna_3/variant_2_lab3.png'
+import html_1 from './images/laboratorna_3/html_1.png'
+import html_2 from './images/laboratorna_3/html_2.png'
+import html_3 from './images/laboratorna_3/html_3.png'
+import html_4 from './images/laboratorna_3/html_4.png'
+import css_1 from './images/laboratorna_3/css_1.png'
+import css_2 from './images/laboratorna_3/css_2.png'
+import css_3 from './images/laboratorna_3/css_3.png'
+import main_1 from './images/laboratorna_3/main_1.png'
+import main_2 from './images/laboratorna_3/main_2.png'
+import main_3 from './images/laboratorna_3/main_3.png'
+import main_4 from './images/laboratorna_3/main_4.png'
+
+// lab4
+import dekstop from './images/laboratorna_4/desktop.png'
+import tablet from './images/laboratorna_4/tablet.png'
+import smartphone from './images/laboratorna_4/smartphone.png'
+import smartphone_1 from './images/laboratorna_4/smartphone_1.png'
+
 export const assets = {
     dropdown,
     menu,
@@ -45,5 +66,22 @@ export const assets = {
     text_color,
     text_color_photo,
     list_lab2,
-    list_lab2_photo
+    list_lab2_photo,
+    variant_lab3,
+    variant_2_lab3,
+    html_1,
+    html_2,
+    html_3,
+    html_4,
+    css_1,
+    css_2,
+    css_3,
+    main_1,
+    main_2,
+    main_3,
+    main_4,
+    dekstop,
+    tablet,
+    smartphone,
+    smartphone_1
 }
