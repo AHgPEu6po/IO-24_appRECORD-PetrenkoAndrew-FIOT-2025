@@ -1,0 +1,151 @@
+/* Загальні стилі для всіх блоків завдань */
+.real {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 10px;
+}
+
+.real > div {
+  background-color: #ffbb00;
+  padding: 30px;
+  border-radius: 8px;
+  text-align: left; /* Змінено на left */
+  align-items: flex-start; /* Додано для вирівнювання елементів всередині */
+}
+
+/* Заголовки */
+.real h2 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Кнопки та інпути */
+input,
+button {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+input:focus,
+button:hover {
+  outline: none;
+  border-color: #0055ff;
+  box-shadow: 0 0 5px rgba(0, 85, 255, 0.5);
+}
+
+/* Завдання 2 */
+.task2 {
+  display: flex;
+  flex-direction: column; /* Розташовуємо елементи вертикально */
+  align-items: flex-start; /* Вирівнюємо елементи по лівому краю */
+}
+
+.task2 > div {
+  display: flex; /* Розташовуємо кнопку та інпути в ряд */
+  align-items: center; /* Вирівнюємо кнопку та інпути по вертикалі */
+  margin-top: 10px; /* Додаємо невеликий відступ від заголовка */
+}
+
+.task2 input {
+  margin-left: 5px; /* Додаємо відступ між інпутами */
+}
+
+.task2 input {
+  margin-right: 5px; /* Додано відступ між інпутами */
+}
+
+/* Завдання 4 */
+#square {
+  width: 150px;
+  height: 150px;
+  border: 2px dashed black;
+  margin-bottom: 15px;
+}
+
+.task4 > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.task4 button {
+  margin-right: 5px;
+}
+
+/* Завдання 6 */
+.task6 ul {
+  list-style: disc inside;
+  padding-left: 20px; /* Додано відступ для маркерів */
+  font-size: 18px;
+  text-align: left;
+  max-width: 200px; /* Збільшено для кращого відображення тексту */
+  margin-bottom: 15px;
+}
+
+/* Завдання 7 */
+.task7 ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.task7 li.item {
+  margin-bottom: 15px;
+  text-align: left; /* Додано вирівнювання тексту елементів списку */
+}
+
+.task7 li.item h2 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.task7 li.item ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+/* Завдання 8 */
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 300px;
+  align-items: flex-start; /* Вже є, залишаємо */
+}
+
+/* Завдання 9 */
+.task9 .widget {
+  text-align: left; /* Змінено на left */
+}
+
+.task9 .change-color {
+  margin-top: 10px;
+}
+
+/* Завдання 10 */
+#controls {
+  display: flex;
+  justify-content: flex-start; /* Змінено на flex-start */
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+#controls input[type="number"] {
+  max-width: 100px;
+  text-align: left; /* Змінено на left */
+}
+
+#boxes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-start; /* Змінено на flex-start */
+  margin-top: 20px;
+}

@@ -22,8 +22,11 @@ const Navigation = () => {
                 <NavLink to='/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/l4' className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
                     <p>Лабораторна робота №4</p>
                 </NavLink>
-                <NavLink to='/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/l5' className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
-                    <p>Лабораторна робота №5</p>
+                <NavLink to='/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/l5_1' className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
+                    <p>Лабораторна робота №5_1</p>
+                </NavLink>
+                <NavLink to='/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/l5_2' className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
+                    <p>Лабораторна робота №5_2</p>
                 </NavLink>
                 <NavLink to='/IO-24_appRECORD-PetrenkoAndrew-FIOT-2025/l6' className='flex flex-col items-center gap-1 border-1 rounded-lg p-2'>
                     <p>Лабораторна робота №6</p>

@@ -52,6 +52,42 @@ import tablet from './images/laboratorna_4/tablet.png'
 import smartphone from './images/laboratorna_4/smartphone.png'
 import smartphone_1 from './images/laboratorna_4/smartphone_1.png'
 
+//lab5.1
+import task5_2 from './images/laboratorna_5_1/task5.2.jpg'
+import task5_4 from './images/laboratorna_5_1/task5.4.jpg'
+import task5_6 from './images/laboratorna_5_1/task5.6.jpg'
+import task5_7 from './images/laboratorna_5_1/task5.7.jpg'
+import task5_8 from './images/laboratorna_5_1/task5.8.jpg'
+import task5_9 from './images/laboratorna_5_1/task5.9.jpg'
+import task5_10_1 from './images/laboratorna_5_1/task5.10.1.jpg'
+import task5_10_2 from './images/laboratorna_5_1/task5.10.2.jpg'
+
+//lab6
+import lab6_back1 from './images/laboratorna_6/lab6_back1.jpg'
+import lab6_back2 from './images/laboratorna_6/lab6_back2.jpg'
+import lab6_back3 from './images/laboratorna_6/lab6_back3.jpg'
+import lab6_front from './images/laboratorna_6/lab6_front.jpg'
+
+//lab7
+import lab7_1 from './images/laboratorna_7/lab7_1.jpg'
+import lab7_2 from './images/laboratorna_7/lab7_2.jpg'
+
+//lab8
+import lab8_back1 from './images/laboratorna_8/lab8_back1.jpg'
+import lab8_back2 from './images/laboratorna_8/lab8_back2.jpg'
+import lab8_db from './images/laboratorna_8/lab8_db.jpg'
+import lab8_front1 from './images/laboratorna_8/lab8_front1.jpg'
+import lab8_front2 from './images/laboratorna_8/lab8_front2.jpg'
+import lab8_front3 from './images/laboratorna_8/lab8_front3.jpg'
+
+//lab9
+import lab9_back1 from './images/laboratorna_9/lab9_back1.jpg'
+import lab9_back2 from './images/laboratorna_9/lab9_back2.jpg'
+import lab9_db from './images/laboratorna_9/lab9_db.jpg'
+import lab9_front1 from './images/laboratorna_9/lab9_front1.jpg'
+import lab9_front2 from './images/laboratorna_9/lab9_front2.jpg'
+import lab9_front3 from './images/laboratorna_9/lab9_front3.jpg'
+
 export const assets = {
     dropdown,
     menu,
@@ -97,5 +133,31 @@ export const assets = {
     dekstop,
     tablet,
     smartphone,
-    smartphone_1
+    smartphone_1,
+    task5_2,
+    task5_4,
+    task5_6,
+    task5_7,
+    task5_8,
+    task5_9,
+    task5_10_1,
+    task5_10_2,
+    lab6_back1,
+    lab6_back2,
+    lab6_back3,
+    lab6_front,
+    lab7_1,
+    lab7_2,
+    lab8_back1,
+    lab8_back2,
+    lab8_db,
+    lab8_front1,
+    lab8_front2,
+    lab8_front3,
+    lab9_back1,
+    lab9_back2,
+    lab9_db,
+    lab9_front1,
+    lab9_front2,
+    lab9_front3
 }

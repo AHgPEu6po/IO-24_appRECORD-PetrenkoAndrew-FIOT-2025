@@ -3,7 +3,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     background: black;
-    -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     margin-bottom: 50px;
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);
@@ -13,7 +13,7 @@
     font-size: 2.5rem;
     font-weight: bold;
     background: black;
-    -webkit-background-clip: text;
+    background-clip: text;
     color: transparent;
     margin-bottom: 50px;
     text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.2);

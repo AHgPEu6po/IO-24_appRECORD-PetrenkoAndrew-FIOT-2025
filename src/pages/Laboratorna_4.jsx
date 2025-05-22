@@ -166,5 +166,5 @@ const Laboratorna4 = () => {
             </div>
         </div>
     );
-}; 3
+}; 
 export default Laboratorna4;
